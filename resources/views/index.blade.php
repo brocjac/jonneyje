@@ -16,6 +16,17 @@
     </div>
 </div>
 <div class="section2">
-
+    <div class="services">
+        <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+        <p>BEST Customer Support</p>
+    </div>
+    <div class="services">
+        <i class="fa-solid fa-globe" style="color: #ffffff;"></i>
+        <p>Reliable High Speed Internet</p>
+    </div>
+    <div class="services">
+        <i class="fa-solid fa-wrench" style="color: #ffffff;"></i>
+        <p>24/7 Tech Support*</p>
+    </div>
 </div>
 @endsection
