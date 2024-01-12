@@ -6,14 +6,20 @@
     box-sizing: border-box;
     font-family: "Open Sans", "Segoe UI", sans-serif;
 }
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 32px;
+}
 body {
     margin: 0 auto;
-    padding: 0 20px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 nav img {
     max-width: 80%;
@@ -92,3 +98,72 @@ nav img {
     padding-top: 15px;
 }
 
+.section3Content {
+    background-color: rgba(91, 188, 240, .33);
+}
+.section3Content h2 {
+    color: #3E80A3;
+}
+.section3Content h3 {
+    color: #4D9EC9;
+}
+.section3Content li, .section3Content p {
+    color: #264E63;
+}
+.section3Img {
+    width: 50%;
+    object-fit: cover;
+    height: 470px;
+}
+#InternetImg {
+    float: right;
+}
+#ITImg {
+    float: left;
+}
+#ourInternetPlan {
+    flex-direction: row-reverse;
+}
+#ITService {
+    text-align: right;
+}
+#InternetImg {
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
+    shape-outside: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
+}
+#ITImg {
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+    shape-outside: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+}
+.contentPlans {
+    min-height: 470px;
+}
+.section3Content ul li {
+    list-style-type: none;
+}
+#ourInternetPlan p {
+    float: left;
+    padding: 7px 5px 0 0;
+    font-style: italic;
+    font-weight: 500;
+}
+.wisconsinInternet {
+    height: 35px;
+    float: left;
+}
+.poweredBy {
+    display: block;
+    padding-top: 10px;
+    min-height: 60px;
+}
+#ourInternetPlan .contentPlans {
+    padding: 20px 0 0 20px;
+}
+#ITService .contentPlans {
+    padding: 20px 20px 0 0;
+}
+.buttonLinks {
+    padding: 20px;
+    color: #fff;
+    background-color: #57B1E3;
+}
