@@ -37,17 +37,24 @@ nav img {
     text-decoration: none;
     color: #000000;
 }
-
+.button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    color: #fff;
+    background-color: #57B1E3;
+    border-radius: 1rem;
+}
 /*--------------home page---------------*/
 
 .section1 {
     position: relative;
     width: 100%;
-    height: 690px;
+    height: 725px;
 }
 .section1 img {
     width: 100%;
-    height: 690px;
+    height: 100%;
     object-fit: cover;
 }
 .section1 .content {
@@ -72,13 +79,17 @@ nav img {
 }
 .checkOut {
     position: absolute;
+    text-decoration: none;
     bottom: 30px;
     left: 50%;
     transform: translate(-50%);
     color: #fff;
     text-align: center;
+    transition-duration: 0.5s;
 }
-
+.checkOut:hover {
+    margin-bottom: 10px;
+}
 .section2 {
     height: 100%;
     background-color: #57B1E3;
@@ -173,11 +184,50 @@ nav img {
 #ITService .contentPlans {
     padding: 40px 40px 0 0;
 }
-.buttonLinks {
-    font-size: 18px;
-    font-weight: 600;
-    padding: 20px;
-    color: #fff;
+
+/*---------------email-----------------*/
+.submit-mail {
+    font-size: 16px;
+    width: 100%;
+}
+form {
+    margin: 100px auto;
+    text-align: center;
+    width: 40%;
+}
+.form .form-group {
+    width: 100%;
+}
+input, textarea {
+    width: 100%;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .1));
+    margin: 20px 0;
+    border-radius: .5rem;
+    padding: 10px 0;
+}
+/*-----------------footer----------------*/
+footer {
     background-color: #57B1E3;
-    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+footer ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+    border-bottom: rgba(225, 225, 225, .5) 1px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer li {
+    float: none;
+}
+footer li a {
+    padding: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    margin-top: 20px;
 }

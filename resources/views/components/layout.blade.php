@@ -16,11 +16,17 @@
     </div>
     <div class="navbar">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+{{--            <li><a href="#">About</a></li>--}}
+            <li><a href="{{url("contact")}}">Contact</a></li>
         </ul>
     </div>
 </nav>
 @yield('content')
+<footer>
+    <ul>
+        <li><a href="{{url("contact")}}">Contact</a></li>
+    </ul>
+    <p>&copy; 2024 JonneyJE</p>
+</footer>
 </body>
 </html>

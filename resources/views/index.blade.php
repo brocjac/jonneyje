@@ -10,12 +10,12 @@
         <h2>Internet & Services in Kewaskum Wisconsin</h2>
         <h3>Internet Starting at $60/Month</h3>
     </div>
-    <div class="checkOut">
+    <a href="#scrollContent" class="checkOut">
         <p>Check it Out</p>
         <i class="fas fa-chevron-down"></i>
-    </div>
+    </a>
 </div>
-<div class="section2">
+<div id="scrollContent" class="section2">
     <div class="services">
         <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
         <p>BEST Customer Support</p>
@@ -42,7 +42,7 @@
                 <li>Only for $60/Month</li>
             </ul>
             <div class="poweredBy"><p>Powered By</p><img class="wisconsinInternet" src="{{'/images/wisconsin_internet.png'}}"></div>
-            <button class="buttonLinks" onclick="window.location.href='https://w3docs.com';">Shop Now</button>
+            <button class="button" onclick="window.location.href='https://w3docs.com';">Shop Now</button>
         </div>
     </div>
     <div class="section3Content" id="ITService">
@@ -56,7 +56,7 @@
                 <li>Best in Class Server Installation</li>
                 <li>Only for $120/Hour Service</li>
             </ul>
-            <button class="buttonLinks" onclick="window.location.href='https://w3docs.com';">Make Appointment</button>
+            <button class="button" onclick="window.location.href='https://w3docs.com';">Make Appointment</button>
         </div>
     </div>
 </div>
