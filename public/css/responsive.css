@@ -1,0 +1,13 @@
+/*-------------tablet---------------------*/
+@media screen and (max-width: 768px){
+    .section1 .content {
+        left: 0;
+        text-align: center;
+    }
+    .contentPlans h2 {
+        font-size: 38px;
+    }
+    .contentPlans h3 {
+        font-size: 24px;
+    }
+}

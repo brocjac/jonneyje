@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContactFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,7 +16,5 @@ use App\Http\Controllers\ContactFormController;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
-//Route::get('/contact', [ContactFormController::class, 'submit'])->name('contact.submit');
+Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
